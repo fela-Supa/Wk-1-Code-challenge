@@ -1,4 +1,4 @@
-# phase-1-week-1-code-challenge
+# phase-1-Wk1-Codechallenge
 
 ## Description
 This is an application comprised of:
