@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phase 1 Challenge</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#Challenge 1">Student Grade Calculator</a></li>
+        <li><a href="#Challenge 2">Speed Detector</a></li>
+        <li><a href="#Challenge 3">Net Salary Calculator</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1>PHASE 1 -Wk1-CODE CHALLENGE</h1>
+    </section>
+    <hr />
+    <section id="Challenge 1" class="sec">
+      <h3>Student Grade Generator</h3>
+      <div id="cont">
+        <input
+          id="score"
+          class="input"
+          type="number"
+          placeholder="enter score between 0 - 100"
+          min="0"
+          max="100"
+        />
+        <button class="btn" id="gradeBtn">check grade</button>
+        <p id="gradeOutput" class="output">Grade will be displayed here</p>
+      </div>
+    </section>
+    <hr />
+    <section id="Challenge 2" class="sec">
+      <h3>Speed Detector</h3>
+      <div id="cont">
+        <input
+          id="speed"
+          class="input"
+          type="number"
+          placeholder="enter speed"
+          min="0"
+          max="400"
+        />
+        <button class="btn" id="pointsBtn">Check points</button>
+        <p id="pointsOutput" class="output">
+          points for exceeded limit will be displayed here
+        </p>
+        <p class="output" id="messageOutput">......</p>
+      </div>
+    </section>
+    <hr />
+    <section id="Challenge 3" class="sec">
+      <h3>Net Salary Calculator</h3>
+      <div id="cont">
+        <input
+          id="grossSalary"
+          class="input"
+          type="number"
+          placeholder="enter gross salary"
+          min="0"
+        />
+        <button class="btn" id="salaryBtn">Check Net Salary</button>
+        <p id="nssf" class="output">NSSF: 0</p>
+        <p class="output" id="taxableIncome">Taxable income: 0</p>
+        <p class="output" id="payee">PAYEE: 0</p>
+        <p class="output" id="nhif">NHIF: 0</p>
+        <p class="output" id="netSalary">Net Salary: 0</p>
+      </div>
+    </section>
+    <script type="module" src="./JS/index.js"></script>
+  </body>
+</html>

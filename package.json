@@ -1,0 +1,25 @@
+{
+  "name": "wk-1-code-challenge",
+  "version": "1.0.0",
+  "description": "code Challenge week 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fela-Supa/Wk-1-Code-challenge.git"
+  },
+  "keywords": [
+    "Grades",
+    "speed",
+    "salary",
+    "detector"
+  ],
+  "author": "Alvin Njonjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fela-Supa/Wk-1-Code-challenge/issues"
+  },
+  "homepage": "https://github.com/fela-Supa/Wk-1-Code-challenge#readme"
+}

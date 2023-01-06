@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to bottom, #F1C40F, #2E2E2E);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2E2E2E;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F1C40F;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#home,
+.sec {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 6rem;
+  color: #2E2E2E;
+  text-shadow: 3px 3px 3px #2E2E2E;
+}
+
+#cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  background-color: #808080;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input,
+.output {
+  padding: 20px;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #F1C40F;
+  color: #2E2E2E;
+}
+
+.output {
+  background-color: #2E2E2E;
+  color: #D2C6C6;
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #b89407;
+  border: none;
+  font-size: 1.5rem;
+  color: #2E2E2E;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 3rem;
+  color: #2E2E2E;
+  margin-top: 100px;
+}
+
+#netSalary {
+  background-color: #F1C40F;
+  color: #2E2E2E;
+  font-weight: 500;
+}
